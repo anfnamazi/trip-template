@@ -15,7 +15,7 @@ export default function Navbar() {
             borderRadius: 16,
         }}>
             <Group gap="md" visibleFrom="sm">
-                <img src="/images/one-logo.png"/>
+                <img src="./images/one-logo.png"/>
                 <Button variant="subtle">جستجو بلیط</Button>
                 <Button variant="subtle">درباره ما</Button>
                 <Button variant="subtle">پرسش های متداول</Button>

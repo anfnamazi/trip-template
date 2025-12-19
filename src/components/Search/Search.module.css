@@ -1,35 +1,33 @@
 .tab {
-    font-weight: bold;
-    color: #1C1C1C;
-    transition: all 0.2s ease;
-    padding-block: 2px;
-    padding-inline: 20px;
+  font-weight: bold;
+  color: #1c1c1c;
+  transition: all 0.2s ease;
+  padding-block: 2px;
+  padding-inline: 20px;
 }
 
 .tab[data-active] {
-    background-color: transparent;
-    position: relative;
+  background-color: transparent;
+  position: relative;
 }
 
 .tab[data-active]::before {
-    content: "";
-    background: #000;
-    position: absolute;
-    bottom: 2px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 16px;
-    height: 4px;
-    border-radius: 2px;
-
+  content: '';
+  background: #000;
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 4px;
+  border-radius: 2px;
 }
 
 .list {
-    height: 100%;
-
+  height: 100%;
 }
 
 .panel {
-    background-color: #f9f9f9;
-    padding: 0;
+  background-color: #f9f9f9;
+  padding: 0;
 }

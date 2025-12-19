@@ -23,7 +23,7 @@ export const Search = () => {
             height: 511,
             borderRadius: 40,
             position: 'relative',
-            marginBottom: 60
+            marginBottom: 40
         }}>
             <Box style={{
                 width: 434,

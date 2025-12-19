@@ -19,7 +19,7 @@ import classes from "./Search.module.css"
 export const Search = () => {
     return (
         <div style={{
-            background: `url(/public/bg-header.png) center`,
+            background: `url(./images/bg-header.png) center`,
             height: 511,
             borderRadius: 40,
             position: 'relative',

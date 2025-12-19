@@ -4,6 +4,7 @@ import '@mantine/dates/styles.css';
 import {DirectionProvider, MantineProvider, type MantineThemeOverride} from '@mantine/core';
 import {createRoot} from "react-dom/client";
 import App from "./App.tsx";
+import {HashRouter} from "react-router-dom";
 
 export const customTheme: MantineThemeOverride = {
     colors: {
@@ -26,9 +27,11 @@ export const customTheme: MantineThemeOverride = {
 
 
 createRoot(document.getElementById('root')!).render(
-    <DirectionProvider>
-        <MantineProvider theme={customTheme}>
-            <App/>
-        </MantineProvider>
-    </DirectionProvider>
+    <HashRouter>
+        <DirectionProvider>
+            <MantineProvider theme={customTheme}>
+                <App/>
+            </MantineProvider>
+        </DirectionProvider>
+    </HashRouter>
 );

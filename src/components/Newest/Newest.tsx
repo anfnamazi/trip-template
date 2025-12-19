@@ -23,16 +23,16 @@ export const Newest = () => {
             <Flex align="center" gap={24}>
                 <Card title={"تور شیراز"} price={"9,820,000"} date={"15 تا 20 خرداد"}
                       description={"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم..."}
-                      imgUrl={"/public/trip1.png"}/>
+                      imgUrl={"./images/trip1.png"}/>
                 <Card title={"تور شیراز"} price={"9,820,000"} date={"15 تا 20 خرداد"}
                       description={"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم..."}
-                      imgUrl={"/public/trip2.png"}/>
+                      imgUrl={"./images/trip2.png"}/>
                 <Card title={"تور شیراز"} price={"9,820,000"} date={"15 تا 20 خرداد"}
                       description={"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم..."}
-                      imgUrl={"/public/trip3.png"}/>
+                      imgUrl={"./images/trip3.png"}/>
                 <Card title={"تور شیراز"} price={"9,820,000"} date={"15 تا 20 خرداد"}
                       description={"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم..."}
-                      imgUrl={"/public/trip4.png"}/>
+                      imgUrl={"./images/trip4.png"}/>
             </Flex>
         </Stack>
     );

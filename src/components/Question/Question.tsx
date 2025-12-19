@@ -29,7 +29,7 @@ export const Question = () => {
     return (
         <Flex gap={24}>
             <Box>
-                <img src="/public/plane.png" width={392} height={443}/>
+                <img src="./images/plane.png" width={392} height={443}/>
             </Box>
             <Stack gap={4}>
                 <Flex justify="start" align="center" gap={16}>

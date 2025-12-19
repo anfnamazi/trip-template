@@ -22,7 +22,8 @@ export const Search = () => {
             background: `url(/public/bg-header.png) center`,
             height: 511,
             borderRadius: 40,
-            position: 'relative'
+            position: 'relative',
+            marginBottom: 60
         }}>
             <Box style={{
                 width: 434,
@@ -76,7 +77,7 @@ export const Search = () => {
             </Box>
 
             <Box style={{
-                width: 232,
+                width: 226,
                 height: 40,
                 bottom: 70,
                 left: 80,
@@ -104,7 +105,7 @@ export const Search = () => {
                 width: 144,
                 height: 40,
                 bottom: 70,
-                left: 330,
+                left: 320,
                 borderRadius: 20,
                 background: '#fff',
                 position: 'absolute',

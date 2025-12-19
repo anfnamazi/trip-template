@@ -21,7 +21,7 @@ export const Card = (props: Props) => {
             <Badge size="lg" leftSection={<IconCalendarWeek size={20}/>} h={24} pos="absolute" top={12} right={14}
                    style={{backgroundColor: "#C7C7C7CC", color: "#000"}}>{props.date}</Badge>
 
-            <svg width="287" height="95" viewBox="0 0 287 95" fill="none"
+            <svg width="100%" height="95" viewBox="0 0 287 95" fill="none"
                  style={{position: "absolute", bottom: 0, right: 0}}
                  xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -55,12 +55,12 @@ export const Card = (props: Props) => {
                 color: "#C7C7C7",
                 textAlign: "right",
                 zIndex: 3,
-                padding: '4px 8px 16px'
+                padding: '4px 16px 16px 0'
             }}>
-                <Flex align="end" justify="center">
+                <Flex align="end" justify="space-around">
                     <Text size="xs">{props.description}</Text>
-                    <Box flex={1}>
-                        <Button size={"xs"} variant="transparent" c={"#fff"}
+                    <Box flex={1} h={"auto"}>
+                        <Button size={"xs"} mt={4} variant="transparent" py={0} c={"#fff"}
                                 rightSection={<IconArrowLeft/>}>مشاهده</Button>
                     </Box>
                 </Flex>
@@ -69,7 +69,7 @@ export const Card = (props: Props) => {
             <div style={{
                 position: "absolute",
                 bottom: 55,
-                right: 16,
+                right: 12,
                 color: "#fff",
                 borderBottom: "1px solid #ECECEC33",
                 padding: '4px 4px 6px 26px',

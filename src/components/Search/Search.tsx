@@ -14,7 +14,7 @@ import {
     IconTransfer,
     IconUser
 } from "@tabler/icons-react";
-import classes from "./index.module.css"
+import classes from "./Search.module.css"
 
 export const Search = () => {
     return (
